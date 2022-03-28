@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main__container {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.sec__1 {
+    width: 750px;
+    background-color: #fff;
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow:
+        4.7px 4.6px 2.5px -5px rgba(0, 0, 0, 0.033),
+        11.5px 11.3px 6.1px -5px rgba(0, 0, 0, 0.078),
+        21.6px 21.1px 12.7px -5px rgba(0, 0, 0, 0.141),
+        37.6px 36.8px 27.8px -5px rgba(0, 0, 0, 0.231),
+        85px 83px 75px -5px rgba(0, 0, 0, 0.31);
+
+
+}
+
+.main_heading {
+    padding-top: 30px;
+    padding-left: 25px;
+    color: hsl(179, 62%, 43%);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.green__txt {
+    padding-left: 25px;
+    padding-top: 20px;
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.txt {
+    padding-left: 25px;
+    padding-top: 22px;
+    padding-right: 150px;
+    color: hsl(218, 22%, 67%);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sec__2 {
+    display: flex;
+    width: 750px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 261px;
+    box-shadow:
+        4.7px 4.6px 2.5px -5px rgba(0, 0, 0, 0.033),
+        11.5px 11.3px 6.1px -5px rgba(0, 0, 0, 0.078),
+        21.6px 21.1px 12.7px -5px rgba(0, 0, 0, 0.141),
+        37.6px 36.8px 27.8px -5px rgba(0, 0, 0, 0.231),
+        85px 83px 75px -5px rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    border-bottom-left-radius: 10px;
+}
+
+.mon__sub {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+
+.price {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+}
+
+.small {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: hsl(205, 19%, 88%);
+}
+
+.price_txt {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.left button {
+    margin-top: 45px;
+    margin-left: 50px;
+    width: 200px;
+    height: 41px;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 54%, 57%);
+    color: rgb(248, 246, 246);
+    border-bottom-right-radius: 10px;
+
+}
+
+.why__us {
+    padding-top: 25px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.right__text {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 50px;
+    line-height: 25px;
+    font-size: 0.8rem;
+}
+.left button:hover{
+   background: greenyellow;
+   transition: background linear 0.5s;
+}
