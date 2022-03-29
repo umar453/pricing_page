@@ -24,9 +24,9 @@ body {
 }
 
 .sec__1 {
-    width: 750px;
+    max-width: 516px;
     background-color: #fff;
-    height: 200px;
+    min-height: 220px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     box-shadow:
@@ -66,10 +66,10 @@ body {
 
 .sec__2 {
     display: flex;
-    width: 750px;
+    width: 517px;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 261px;
+    height: 256px;
     box-shadow:
         4.7px 4.6px 2.5px -5px rgba(0, 0, 0, 0.033),
         11.5px 11.3px 6.1px -5px rgba(0, 0, 0, 0.078),
@@ -150,4 +150,55 @@ body {
 .left button:hover{
    background: greenyellow;
    transition: background linear 0.5s;
+}
+
+@media(max-width:520px)
+{
+ .main__container{
+     margin-left: 1.5rem;
+     /* margin-top: 0.3rem; */
+     margin-right: 1.5rem;
+    /*  */
+     align-items: flex-start;
+ }
+ .sec__1{
+     min-height: 3.5rem;
+     padding-bottom: 1rem;
+     box-shadow: none;
+ }
+ .main_heading{
+     font-size: 1.3rem;
+ }
+ .green__txt{
+     font-size: 1rem;
+ }
+ .txt{
+     font-size: 0.8rem;
+     
+ }
+ .sec__2{
+     flex-direction: column;
+     /* padding-top: 85px; */
+     min-width:100% ;
+     padding-right:1.5rem ;
+     height: 450px;
+     align-items: flex-start;
+     margin-bottom: 1.3rem;
+     box-shadow: none;
+     
+ }
+ .left{
+     width:91% ;
+     height: 68%;
+     padding-bottom: 1rem;
+
+ }
+ .right{
+     width: 91%;
+     height: 65%;
+ }
+ .left button{
+     margin-top: 10px;
+ }
+
 }
